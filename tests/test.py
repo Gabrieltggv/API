@@ -15,8 +15,8 @@ class IndexTest(TestCase):
         self.client = self.app.test_client()
         self.app.db.create_all()
 
-    import ipdb
-    ipdb.set_trace()
+    # import ipdb
+    # ipdb.set_trace()
 
     def tearDown(self) -> None:
         # self.app.db.session.remove()
