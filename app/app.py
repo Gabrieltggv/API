@@ -5,8 +5,6 @@ from app.model import configure as config_db
 from app.serealizer import configure as config_mar
 
 
-
-
 def create_app():
     app = Flask(__name__)
 
@@ -22,4 +20,3 @@ def create_app():
     app.register_blueprint(bp_transacao)
 
     return app
-

@@ -5,6 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 requests = "*"
+ipdb = "*"
+flake8 = "*"
 
 [packages]
 flask = "*"
